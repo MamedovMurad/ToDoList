@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+.main__body {
+    height: 100vh;
+  max-width: 1330px;
+  margin: 0 auto;
+  display: flex;
+}
+.main__body > aside {
+  background-color: #fff;
+  width: 30%;
+}
+.main__body > main {
+
+  width: 70%;
+}
+
+.main__body > main .inout__area{
+left: 37%;
+position: fixed;
+width: 50%;
+bottom: 60px;
+}
+
+.App .button_modal{
+display: flex;
+justify-content: space-between;
+margin: 10px;
+}
+.App .app__button{
+  font-family: sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: white;
+  color: rgba(49, 49, 49, 0.671);
+  font-weight: bold;
+  font-size: 16px;
+}
+/* body */
+
+body{
+    margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .main__body > main {
+    width: 100%;
+  }
+  .main__body > aside {
+    display: none;
+  }
+
+  .main__body > main .inout__area{
+left: 25%;
+  }
+}

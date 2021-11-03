@@ -1,0 +1,22 @@
+.post__list>p{
+background-color: white;
+border-radius: 5px;;
+border: 1px solid rgb(231, 227, 227);
+width: 80%;
+margin: 10px auto;
+padding: 9px;
+
+}
+
+.active__list{
+    position: relative;
+    animation: custom__motion 0.4s linear;
+  
+}
+
+
+@keyframes custom__motion {
+    0%   { opacity:.3;transform: translateY(60px);}
+
+    100% {opacity: 1; transform: translateY(0px);}
+  }

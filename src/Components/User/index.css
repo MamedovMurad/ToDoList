@@ -1,0 +1,28 @@
+.User__Component{
+    margin-top: 20px;
+    display: flex;
+}
+
+.User__Component>.image{
+    width: 42px;
+    height: 42px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(15, 15, 170, 0.719);
+}
+.User__Component>.image>span{
+    display: inline-block;
+    transform: translate(6px,11px );
+}
+.User__Component>.user__content{
+    margin: 6px;
+    font-family: sans-serif;
+}
+.User__Component>.user__content>p{
+    margin: 0;
+    padding: 0;
+}
+.User__Component>.user__content>p:last-child{
+    font-size: 11px;
+    color: #888;
+}

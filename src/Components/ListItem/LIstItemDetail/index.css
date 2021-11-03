@@ -1,0 +1,65 @@
+.single_item_update{
+    position: relative;
+}
+.single_item_update>form{
+    padding-top: 10px;
+  margin: 30px auto;  
+  background-color: #fff;
+  border-radius: 10px;
+  width: 60%;
+  height: 65vh;
+
+}
+
+.single_item_update>form>div{
+
+ margin: 30px 24px;
+}
+.single_item_update>form>div>input,.single_item_update>form>div>textarea{
+    border: none;
+    border:1px solid #e8e4e4;
+    border-radius: 7px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+}
+.single_item_update>form>div>textarea{
+    height: 80px;
+}
+.single_item_update>form>div>input,.single_item_update>form>div>textarea:focus{
+    outline-color: #A4B1F5;
+}
+.single_item_update>form>div>input[type=checkbox]{
+    height: 20px;
+    display: inline-block;
+}
+.single_item_update>form>div.action{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.single_item_update>form>div>input[type=submit],
+.single_item_update>form>div>input[type=button]{
+    width: 40%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0 ;
+    background-color: #A4B1F5;
+    font-weight: bold;
+    color: white;
+}
+
+.single_item_update>form>div>input[type=button]{
+    background-color: #d63636d6;
+}
+
+@media only screen and (max-width: 900px) {
+    .single_item_update>form{
+            width: 90%;
+            margin: 50px auto;  
+    }
+}

@@ -1,0 +1,30 @@
+.menu__list{
+    margin-top: 40px;
+}
+.menu__list ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__list ul li.menu__item{
+    cursor: pointer;
+    margin-top: 6px;
+    width: 80%;
+    padding: 0px 9px;
+    background-color: rgb(220 220 220);
+    border-radius: 6px;
+    border: 1px solid rgb(233, 230, 230);
+    transition: background-color .3s;
+}
+
+.menu__list ul li.menu__item:hover{
+    background-color: rgb(160, 156, 156);
+}
+
+.menu__list ul li.menu__item>p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
